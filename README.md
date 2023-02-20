@@ -5,19 +5,29 @@
 3- Luego clic en New:
 ![tempsnip](https://user-images.githubusercontent.com/124592235/220132062-e4a73b8b-b96b-4b39-a831-6a7e63125618.png)
 4- Después nombramos nuestro repositorio, chequemos en "Add a README file" y crear repositorio
-![image](https://user-images.githubusercontent.com/124592235/220133043-cec5ea1f-e91e-4087-99cc-ff308708bc9a.png)
+![nombre](https://user-images.githubusercontent.com/124592235/220134342-54f709f0-6c80-4415-beac-5b3df7a4d717.png)
 5- Una vez creamos el nombre de nuestro proyecto: 
 *clic en "CODE"
-![image](https://user-images.githubusercontent.com/124592235/220134021-9f23df06-4853-4904-821c-c9e89a6bd303.png)
+![tempsnip](https://user-images.githubusercontent.com/124592235/220134420-3ae4bf0a-1c78-4170-9110-9969fdcfeccf.png)
+*clic en "SSH" y después copiar el link:
+![ssh](https://user-images.githubusercontent.com/124592235/220134769-74da89d7-9559-4bdd-a9c5-92cbaba9bb67.png)
 
-
-
-
-
-Lo primero que debemos hacer es abrir nuestra carpeta con la opción Git Bash
-Para eso damos click derecho y luego en la opción 
+6- Después de copiar el link, procedemos a abrir nuestro proyecto con git bash
+*Para eso damos clic derecho sobre  nuestra carpeta y luego en la opción 
 ![git bash](https://user-images.githubusercontent.com/124592235/220127403-59e93272-6ef9-451b-9389-9b168fb07544.png)
-Cuando estemos en la consola de Git Bash, escribimos el siguente comando:
-git init
-y oprimimos la tecla "enter" del teclado
-Luego, nos dirigimos a nuestro 
+7- Cuando estemos en la consola de Git Bash, escribimos los siguentes comandos:
+1. git init
+*y oprimimos la tecla "enter" del teclado
+2. git remote add origin y pegamos nuestro link de "SSH" 
+*clic derecho "PEGAR" y "ENTER" del teclado
+3. git fetch origin main
+"ENTER" del teclado
+4. git pull origin main
+"ENTER"
+5. git add .
+"ENTER"
+6. git commit -m "Proyecto" <---- *Aquí nombramos nuestro proyecto (con las comillas)
+"ENTER"
+7. git push -u origin main
+"ENTER"
+Y verificamos que se nos haya subido nuestro proyecto en GITHUB
