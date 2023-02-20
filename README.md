@@ -26,22 +26,30 @@ Dirigirnos a nuestro perfil de GitHub, y hacer clic en repositories
 1. git init
 
 *y oprimimos la tecla "enter" del teclado
+
 2. git remote add origin y pegamos nuestro link de "SSH" 
 
 *clic derecho "PEGAR" y "ENTER" del teclado
+
 3. git fetch origin main
 
 "ENTER" del teclado
+
 4. git pull origin main
 
+
 "ENTER"
+
 5. git add .
 
 "ENTER"
+
 6. git commit -m "Proyecto" <---- *Aquí nombramos nuestro proyecto (con las comillas)
 
 "ENTER"
+
 7. git push -u origin main
 
 "ENTER"
+
 Y verificamos que se nos haya subido nuestro proyecto en GITHUB
